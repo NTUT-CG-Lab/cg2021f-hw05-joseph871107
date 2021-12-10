@@ -1,4 +1,4 @@
-import { BasicLoader } from '/module/modelLoader.js';
+import { BasicLoader } from './modelLoader.js';
 
 export class ModelVpdLoader{
     constructor(vpdFiles, callback = function(){}){

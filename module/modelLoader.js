@@ -1,6 +1,6 @@
-import { MMDLoader } from '/libs/jsm/loaders/MMDLoader.js';
-import { MMDAnimationHelper } from '/libs/jsm/animation/MMDAnimationHelper.js';
-import { Object3D } from '/module/object3D.js';
+import { MMDLoader } from '../libs/jsm/loaders/MMDLoader.js';
+import { MMDAnimationHelper } from '../libs/jsm/animation/MMDAnimationHelper.js';
+import { Object3D } from './object3D.js';
 
 export class BasicLoader{
     static loader = new MMDLoader();

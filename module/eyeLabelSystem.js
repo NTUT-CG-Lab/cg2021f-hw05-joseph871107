@@ -1,5 +1,5 @@
-import * as THREE from '/build/three.module.js';
-import { EyePairBorderLine } from '/module/eyePairBorderLine.js';
+import * as THREE from '../build/three.module.js';
+import { EyePairBorderLine } from './eyePairBorderLine.js';
 
 export class EyeLabelSystem{
     static states = Object.freeze(

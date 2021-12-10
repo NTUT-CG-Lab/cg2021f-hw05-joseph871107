@@ -1,5 +1,5 @@
-import * as THREE from '/build/three.module.js';
-import { EyeBorderLine } from '/module/eyeBorderLine.js';
+import * as THREE from '../build/three.module.js';
+import { EyeBorderLine } from './eyeBorderLine.js';
 
 export class EyePairBorderLine{
     constructor(scene, mouse, start, end, color1=0xff0000, color2=0x0000ff, horizontal=true){
